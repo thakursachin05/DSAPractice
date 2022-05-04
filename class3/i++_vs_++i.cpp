@@ -18,7 +18,7 @@ int main() {
     int j=0;
     cout<<"j with j++ :"<<j++<<"\n";
     cout<<"j after j++ :"<<j<<"\n";
-    cout<<"j with ++j :"<<j<<"\n";
+    cout<<"j with ++j :"<<++j<<"\n";
     cout<<"j after ++j: "<<j<<"\n";
     
     cout<<"\n";
