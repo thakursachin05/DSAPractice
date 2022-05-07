@@ -1,6 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+//instead of return the vector, I am modifying the existing vector using pointers (passing by reference, using &)
 void reverseTheArray(vector<int>&A){
 	int i=0, j= A.size()-1;
 	while(i<j)
@@ -11,6 +12,7 @@ void reverseTheArray(vector<int>&A){
 	}
 }
 
+//reversing the string, but here I haven't passed the string by refernce (using &), so I have to return the string
 string reverseTheString(string s){
 	int i=0;
 	int j= s.size()-1;
